@@ -8,7 +8,6 @@ public class Permutations {
         }
 
         for (int i = l; i <= r; i++) {
-            // swap
             char temp = str[l];
             str[l] = str[i];
             str[i] = temp;
